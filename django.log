@@ -478,3 +478,5 @@ NameError: name 'settings' is not defined
 [2025-09-09 06:53:53,996] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
 [2025-09-09 06:53:54,441] INFO django.utils.autoreload Watching for file changes with StatReloader
 [2025-09-09 06:54:03,167] INFO django.server "GET / HTTP/1.1" 200 22400
+[2025-09-09 07:09:53,925] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 07:10:34,979] INFO django.utils.autoreload Watching for file changes with StatReloader
