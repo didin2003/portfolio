@@ -7,6 +7,7 @@ WORKDIR /app
 
 # Copy and install requirements
 COPY requirements.txt /app/
+RUN pip install Pillow
 RUN pip install --upgrade pip && \
     pip install -r requirements.txt
 
