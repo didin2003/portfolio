@@ -7,7 +7,9 @@ python3 manage.py migrate
 python3 manage.py collectstatic --noinput
 
 # Start Django in the background
-python3 manage.py runserver 0.0.0.0:8000 &
-
+gunicorn myportfolio.wsgi:application \
+  --bind 0.0.0.0:8000 \
+  --workers 3 \
+  --timeout 120 &
 # Start Nginx in the foreground
 nginx -g "daemon off;"
